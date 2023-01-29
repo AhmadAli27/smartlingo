@@ -1,0 +1,219 @@
+.logo-text {
+    color: #9146FF;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 31px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    position: relative;
+    top: -7vh;
+    flex-basis: 55%;
+}
+
+.hero-text-title {
+    font-weight: 700;
+    color: #9146FF;
+    font-size: 70px;
+}
+
+.hero-text-subtitle {
+    font-weight: 500;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 22px;
+}
+
+.cta-btn {
+    background-color: #9146FF;
+    padding: 8px 40px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.cta-btn i {    
+    transition: .3s;
+    margin-left: 15px;
+}
+
+.cta-btn:hover i {
+    margin-left: 50px;
+}
+
+.hero-img {
+    padding-top: 8vh;
+    text-align: center;
+    flex-basis: 45%;
+    height: 100%;
+}
+
+.hero-img img {
+    width: 90%;
+}
+
+
+/* OPENAI SECTION */
+
+.openai {
+    margin: auto;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.openai-logo {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.openai img {
+    width: 22vw;
+}
+
+.openai-text {
+    flex-basis: 55%;
+}
+
+.openai-text h4 {
+    color: white;
+    font-size: 45px;
+}
+
+.openai-text span {
+    color: #9146FF;
+}
+
+/* ACCURACY SECTION */
+
+.accuracy {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accuracy h3, .accuracy .purple-span {
+    font-size: 43px;
+}
+
+.accuracy h3 {
+    color: white;
+}
+
+.accuracy .purple-span {
+    color: #9146FF;
+}
+
+.accuracy h4 {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.accuracy .google-accuracy {
+    margin-top: 10vh;
+}
+
+.google-accuracy {
+    display: flex;
+    align-items: center;
+}
+
+.google-accuracy-logo img {
+    width: 15%;
+}
+
+.google-graph {
+    width: 390px;
+    height: 45px;
+    border-radius: 0 30px 30px 0;
+    background-color: #D3D3D3;
+}
+
+.google-accuracy-logo {
+    width: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.google-accuracy-logo-text {
+    font-size: 22px;
+    font-weight: 600px;
+    color: #BBBBBB;
+    margin-left: 10px;
+}
+
+.smartlingo-accuracy {
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.smartlingo-accuracy-logo {
+    width: 260px;
+}
+
+.smartlingo-accuracy-logo-text {
+    color: #9146FF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.smartlingo-graph {
+    width: 613px;
+    height: 45px;
+    border-radius: 0 30px 30px 0;
+    background-color: #9146FF;
+}
+
+.smartlingo-accuracy-percentage, .google-accuracy-percentage {
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+    z-index: -1;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 6vh 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    display: inline;
+    margin-left: 65px;
+    margin-right: 65px;
+    list-style: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer li span {
+    color: white;
+    opacity: 80%;
+    font-size: 18px;
+    font-weight: 500;
+}

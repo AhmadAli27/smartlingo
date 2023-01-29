@@ -1,0 +1,53 @@
+@import url('./translator.css');
+@import url('./landing.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #1D1D1D;
+}
+
+.content {
+  margin: auto;
+  width: 90%;
+}
+
+.navbar {
+  height: 14vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(29,29,29,0) 0%, rgba(29,29,29,1) 16%, rgba(29,29,29,1) 100%);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 3.5vw;
+}
+
+.navbar nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.navbar nav li a:hover {
+  color: #9146FF;
+} 
+
+.logo {
+  display: flex;
+  align-items: center;
+}
