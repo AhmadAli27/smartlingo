@@ -1,2 +1,2 @@
 [context.production]
-  command = "cd api && node index.js"
+  command = "cd client && npm run build && cd api && node index.js"
