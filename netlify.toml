@@ -1,5 +1,5 @@
-[[context.deploy.preview]]
+[context.deploy.preview]
   command = "cd client && npm run build"
 
-[[context.production]]
+[context.production]
   command = "cd api && node index.js"
